@@ -1,0 +1,32 @@
+{
+  "name": "prose_promise",
+  "version": "1.0.1",
+  "description": "A promise utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "core",
+    "easy",
+    "lodash",
+    "pretty",
+    "promise",
+    "prose",
+    "short",
+    "simple",
+    "style"
+  ],
+  "authors": [
+    "Sean D. Murray"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seandmurray/prose_promise"
+  },
+  "dependencies": {
+    "prose_isit": "*"
+  },
+  "devDependencies": {}
+}
