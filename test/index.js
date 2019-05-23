@@ -57,16 +57,16 @@ const shouldNotRun = () => {
 };
 
 console.log('Run list of promises');
-promise_util.promiseSequence([fone, ftwo, fthree, checkSettings]).then(() => {
+promise_util.sequence([fone, ftwo, fthree, checkSettings]).then(() => {
   console.log('List of promises tests complete.');
 }).catch((err) => console.log(err));
 
 console.log('Run promises with stop function');
-promise_util.promiseSequence([fone, ftwo, fthree, checkSettings, shouldNotRun], stopit).then(() => {
+promise_util.sequence([fone, ftwo, fthree, checkSettings, shouldNotRun], stopit).then(() => {
   console.log('Promises tests complete with a stop function.');
 }).catch((err) => console.log(err));
 
-console.log('Send empty array into promiseSequence');
-promise_util.promiseSequence([]).then(() => {
+console.log('Send empty array into sequence');
+promise_util.sequence([]).then(() => {
   console.log('Promises tests complete with empty array.');
 }).catch((err) => console.log(err));

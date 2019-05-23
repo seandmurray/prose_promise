@@ -32,7 +32,7 @@ const functionWrappedPromiseTwo= (data) => {
   });
 };
 
-promise_util.promiseSequence([ functionWrappedPromiseOne, functionWrappedPromiseTwo], optionalStopFunction).then(() => {
+promise_util.sequence([ functionWrappedPromiseOne, functionWrappedPromiseTwo], optionalStopFunction).then(() => {
 	console.log('Promises sequence complete.');
 }).catch((err) => console.log(err));
 

@@ -1,7 +1,7 @@
 /* jshint esversion: 6 */
 const isit = require('prose_isit');
 
-module.exports.promiseSequence = function (functionWrappedPromises, stopFunctionOptional) {
+exports.sequence = function (functionWrappedPromises, stopFunctionOptional) {
   if (isit.notArray(functionWrappedPromises)) {
     throw new Error('The 1st argument is required and it is expected to be an array of function wrapped promises!');
   }
