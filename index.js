@@ -15,8 +15,7 @@ exports.sequence = function (functionWrappedPromises, stopFunctionOptional) {
       if (isit.aFunction(stopFunctionOptional) && stopFunctionOptional(data)) {
         i = functionWrappedPromises.length;
         return Promise.resolve();
-      }
-      else if (isit.aFunction(next)) {
+      } else if (isit.aFunction(next)) {
         return next(data);
       }
     });
