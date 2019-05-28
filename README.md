@@ -1,14 +1,15 @@
 # Prose/Promise
 
-Make writing node easier, prettier and less error prone. Writes and reads more like prose
+Run a bunch of promises in sequence with the option of stopping based on the results of a previous promise.
 
-A utility to help manipulate promises.
+Make writing node easier, prettier and less error prone. Writes and reads more like prose
 
 See also prose_isit.
 
 ## Usage
 
 ```javascript
+// Example using the sequence method to run promises in sequence.
 const promise_util = require('prose_promise');
 
 // The optionalStopFunction is called before each function-wrappred-promise is called.
