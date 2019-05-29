@@ -1,15 +1,15 @@
 {
   "name": "prose_promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A promise utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
+    "promise",
     "core",
     "easy",
     "lodash",
     "pretty",
-    "promise",
     "prose",
     "short",
     "simple",

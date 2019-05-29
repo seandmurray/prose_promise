@@ -1,4 +1,6 @@
 /* jshint esversion: 6 */
+// Copyright (c) 2019 Seán D. Murray
+// SEE MIT LICENSE FILE
 const isit = require('prose_isit');
 
 exports.sequence = function (functionWrappedPromises, stopFunctionOptional) {

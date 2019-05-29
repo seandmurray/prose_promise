@@ -1,10 +1,11 @@
 # Prose/Promise
 
+Copyright (c) 2019 Seán D. Murray
+SEE MIT LICENSE FILE
+
+A promise utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose.
+
 Run a bunch of promises in sequence with the option of stopping based on the results of a previous promise.
-
-Make writing node easier, prettier and less error prone. Writes and reads more like prose
-
-See also prose_isit.
 
 ## Usage
 
