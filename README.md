@@ -5,7 +5,9 @@ SEE MIT LICENSE FILE
 
 A promise utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose.
 
-Run a bunch of promises in sequence with the option of stopping based on the results of a previous promise.
+## Synopsis
+
+sequence: Run a bunch of promises in sequence with the option of stopping based on the results of a previous promise.
 
 ## Usage
 
